@@ -29,8 +29,7 @@ if OS == "Linux":
     #Comparo que no exista el archivo, si no existe se crea
     if os.path.isdir(f"/home/{username}/Desktop/AUTOPLAY2") == False:
         mkdir(f"/home/{username}/Desktop/AUTOPLAY2")
-    else:
-        pass
+   
 
 if OS == "Windows":
 
