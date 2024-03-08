@@ -62,10 +62,5 @@ elif OS == "Linux":
 else:
     print("No se pudo determinar el sistema operativo.")
 
-#Escribo los datos guardados
-f.write(gmail)
-f.write("\n\n" + Nombre_de_usuario)
-f.write("\n\n\n" + password)
-f.close()
-f = open(path + f'{nombre_archivo}.txt', 'r')
+#guardo la contraseña al portapapeles
 cb.copy(password)
